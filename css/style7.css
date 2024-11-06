@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position:sticky;
+    top:0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 0 !important;
+}
+
+
+.navbar-brand img{
+    height:40px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+    position: relative;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+
+.navbar-nav li ul li{
+    list-style: none;
+}
+.fa-bars{
+    color:#fff;
+    font-size:  30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.dropdown .dropdown-menu{
+      background-image: linear-gradient(to right, #a517ba, #5f1782);
+    overflow: hidden;
+}
+.dropdown .dropdown-menu a:hover{
+    background: #333;
+    transform: translateX(10px) translateZ(10px);
+    transition: 0.5s all;
+}
+#banner{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding-top: 5px;
+    color:#fff;
+}
+#banner p{
+    font-family: 'Questrial', sans-serif;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 120px;
+    font-family: 'Questrial', sans-serif;
+}
+.play-btn{
+    width:45px;
+    margin:10px;
+}
+#banner a{
+    color:#fff;
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+}
+.bottom-image{
+    width:100%;
+}
+#services{
+    padding: 80px 0;
+}
+.services-img{
+    margin-top: 20px;
+    width:150px;
+}
+.services{
+    padding: 20px;
+}
+#services h1{
+    font-family: 'Questrial', sans-serif;
+}
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-family: 'Questrial', sans-serif;
+}
+.services p{
+    font-family: 'Questrial', sans-serif;
+     font-weight: 400px;
+    font-size: 15px;
+}
+.title::before{
+    content: '';
+    width:150px;
+    height:5px;
+    background: #7b1798;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    transform: translateY(63px);
+}
+.title::after{
+    content: '';
+    width:50px;
+    height:10px;
+    margin-bottom: 40px;
+    background: #7b1798;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    transform: translateY(8px);
+}
+#services .btn-primary{
+    padding: 8px 25px;
+    border:none;
+    border-radius: 20px;
+    box-shadow: none;
+    background: linear-gradient(to right, #a517ba, #5f1782);
+}
+#about-us{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background: #f8f9fa;
+}
+.about-title{
+    font-size: 35px;
+    font-weight:600;
+    margin-top: 8%;
+
+}
+#about-us h1{
+    font-family: 'Questrial', sans-serif;
+}
+#about-us ul li{
+    margin: 20px 0;
+    list-style: none;
+    font-family: 'Questrial', sans-serif;
+}
+#about-us ul{
+    margin-right:100px;
+}
+.about-us p{
+    margin-right:20px;
+    font-family: 'Questrial', sans-serif;
+     font-weight: 400px;
+    font-size: 15px;
+}
+.about-us img{
+    height:500px;
+   
+}
+/*------------------about-us---------------------*/
+
+/*------------------testimonials-----------------*/
+.testimonials{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-left:4px solid #7b1798;   
+}
+#testimonials{
+    margin: 100px 0;
+}
+#testimonials h1{
+ font-family: 'Questrial', sans-serif;   
+}
+.testimonials img{
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+.testimonials p{
+    font-family: 'Questrial', sans-serif;
+    font-weight: 400px;
+    font-size: 15px;
+}
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+}
+/*------------------testimonials-----------------*/
+
+/*--------------------social-media--------------------*/
+#social-media{
+    margin: 100px 0;
+    background:#f8f9fa; 
+    height:230px;
+
+}
+
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    padding: 30px 0 10px 0;
+     font-family: 'Questrial', sans-serif;
+    
+    
+}
+.social-icons img{
+    width:50px;
+    transition: 0.5s all;
+    padding: 5px 0;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+    transition: 0.5s all
+}
+/*--------------------social-media--------------------*/
+
+/*--------------------footer--------------------*/
+
+#footer{
+     background: linear-gradient(to right, #a517ba, #5f1782);
+    color:#fff;
+}
+#footer img{
+    width:100%;
+}
+
+
+/*--------------------footer--------------------*/

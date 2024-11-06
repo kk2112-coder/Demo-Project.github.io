@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#navbar{
+    position:sticky;
+    top:0;
+    z-index: 10;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 0;
+}
+.navbar-brand img{
+    height:40px;
+    padding-left:20px;
+}
+.navbar-brand img:hover{
+    transform: translateY(-10px);
+    transition: 0.5s all;
+}
+.navbar-nav li{
+    position: relative;
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color:#fff !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    float:right;
+    text-align: left;
+}
+.navbar-nav li a:hover{
+    transform: scale(1.2);
+    transition: 0.5s all;
+    overflow: hidden;
+}
+.dropdown .dropdown-menu{
+      background-image: linear-gradient(to right, #a517ba, #5f1782);
+    overflow: hidden;
+}
+.dropdown .dropdown-menu a:hover{
+    background: #333;
+    transform: translateX(10px) translateZ(10px);
+}
+
+#banner{
+     background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+.banner{
+    background: url(../images/03.jpg);
+    background-repeat: repeat-x;
+    height:150px;
+}
+
+.banner h1{
+    color:#fff !important;
+    padding:45px 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.banner h1:hover{
+    transform: translateY(-10px) skewx(20deg) scale(1);
+    transition: 0.5s all;
+}
+
+#quotes{
+    background: #f8f9fa;
+    padding: 10px 0;
+    margin-top:25px;
+}
+.quotes p{
+    padding: 10px 0;
+    font-size:15px;
+    line-height: 27px;
+    font-style: normal;
+    font-weight: 400;
+    color:#333;
+    font-family: 'Questrial', sans-serif;
+}
+#project{
+    background-color: aqua;
+    min-height:60px;
+}
+
+#project h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Questrial', sans-serif;
+    word-spacing: 5px;
+    padding: 30px 0;
+    
+}
+.btn{
+    color:#fff;
+    background-color: blue;
+    width:150px;
+    padding: 10px 15px;
+    margin-top: 25px;
+    float:none;
+
+}
